@@ -1,3 +1,214 @@
-.logo {
-  font-size: 16px;
+body {
+  font-family: "Inter";
 }
+
+.container {
+  padding: 0 109px;
+}
+
+.header {
+  min-height: 134px;
+  background-color: #edf2ec;
+  display: flex;
+}
+
+.header__container {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-family: "Inika";
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  font-family: "Inika";
+}
+
+nav > ul > li:first-child {
+  margin: 0 23px 0 0;
+}
+
+nav > ul > li {
+  margin: 0 23.5px;
+}
+
+nav > ul > li:last-child {
+  margin: 0 0 0 23px;
+}
+
+.home {
+  display: flex;
+  min-height: 532px;
+  background-color: #edf2ec;
+}
+
+.home__container {
+  margin: 0 auto;
+  max-width: 1222px;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__text {
+  max-width: 549px;
+}
+
+.home__text > h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #717171;
+  margin: 0 0 42px 0;
+}
+
+.home__text > h1 > span {
+  color: #499a18;
+}
+
+.home__text > div {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+  margin: 0 0 48px 0;
+}
+
+.home__text > button {
+  width: 158px;
+  height: 44px;
+  border: 2px solid #e06733;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  height: 666px;
+}
+
+.about__container {
+  margin: 0 auto;
+  max-width: 1222px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__column {
+  max-width: 605px;
+}
+
+.about__column > h2 {
+  font-family: "Inika";
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+  margin: 8px 0 40px 0;
+  max-width: 463px;
+}
+
+.about__column > h2 > span {
+  color: #e06733;
+}
+
+.about__text {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
+.sarvice {
+  background: #edf2ec;
+  height: 1300px;
+  padding: 41px 0 0;
+}
+
+.sarvice__container {
+  max-width: 1222px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin: 0 auto;
+}
+
+.sarvice__switch {
+  max-width: 1007px;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 79px;
+}
+
+.sarvice__switch > h2 {
+  width: 306px;
+  font-family: "Inika";
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+}
+
+.switch__btn {
+  display: flex;
+  flex: 1 1 auto;
+  max-width: 559px;
+  justify-content: space-between;
+}
+
+.switch__btn > button {
+  font-family: "Inika";
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+  text-align: center;
+  width: 161px;
+  height: 50px;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+}
+
+.sarvice__card-conainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sarvice__card {
+  margin: 0 0 55px;
+}
+
+.sarvice__card > div > h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #e06733;
+  margin: 9px 0 14px;
+}
+
+.card__info {
+  border: 1px solid #e3e1d5;
+  border-radius: 0 0 20px 20px;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  text-align: center;
+  margin: 0 0 36px;
+}
+

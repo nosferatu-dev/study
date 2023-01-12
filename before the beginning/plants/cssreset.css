@@ -88,3 +88,8 @@ pre {
 :where(dialog:modal) {
   all: revert;
 }
+
+/* Убирает отступ у IMG объектов*/
+img {
+  display: block;
+}
